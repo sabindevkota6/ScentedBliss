@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+	background-image: linear-gradient(to right, black, gray, gray); 
+	 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_img {
+    display: flex;
+    height: 90vh;
+    width:150vh;
+}
+
+/* Left side with image and text */
+.image-section {
+    flex: 1;
+    background: url('../resources/images/system/loginimage.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+.login-box {
+   /* width: 400px;
+    height: 300px;
+    background-color: white;  
+     border-radius: 10px;
+    box-shadow: 2px 6px 8px rgb(17, 17, 17);
+    margin: 50px auto;
+    padding: 50px;*/
+    background-color: white; 
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for dark background contrast */
+}
+    
+    h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: White;
+}
+  
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.col {
+    flex: 1;
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: Black;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    appearance: none;
+}
+
+
+
+
+
+button, .register-button {
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+login-button, .register-button{
+	text-align: center;
+}
+
+button:hover, .register-button:hover {
+    background-color: gray;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    font-family:Arial;
+}
+
+.success-message {
+    color: seagreen;
+    font-weight: bold;
+}

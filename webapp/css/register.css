@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+background-image: linear-gradient(to right, black, gray, gray);  
+	/*background-image: url(../resources/images/system/registerback.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_img {
+    display: flex;
+    height: 98vh;
+    width:150vh;
+}
+
+/* Left side with image and text */
+.image-section {
+    flex: 1;
+    background: url('../resources/images/system/registerimgg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+.container {
+    background-color: white; 
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for dark background contrast */
+    text-align: center;
+}
+h3{
+	font-size: 20px;
+    font-family:sans Serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family:sans Serif;
+}
+h2{
+	text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.col {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    appearance: none;
+}
+
+button, .login-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+button:hover, .login-button:hover {
+    background-color: gray;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    font-family:Arial;
+}
+
+.success-message {
+    color: seagreen;
+    font-weight: bold;
+}

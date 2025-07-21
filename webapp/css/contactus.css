@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+.Contact-us{
+	margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contact-page {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    flex-grow: 1;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.contact-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.form-section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    height: 100%;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-section input,
+.form-section textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-section textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-section button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #444;
+}
+
+.info-section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    height: auto;
+    overflow: hidden;
+}
+
+.info-section h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.info-section p {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+#footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#footer p {
+    margin-bottom: 10px;
+}
+
+#footer ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+#footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#footer a:hover {
+    color: #ddd;
+}
+
+@media (max-width: 768px) {
+    .contact-box {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .form-section,
+    .info-section {
+        padding: 15px;
+        border-radius: 4px;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-title {
+        font-size: 28px;
+    }
+
+    .contact-page {
+        margin-top: 20px;
+    }
+}

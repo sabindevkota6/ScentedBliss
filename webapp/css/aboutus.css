@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    
+}
+.About-us{
+	margin: 0;
+    background-color: #f8f8f8;
+}
+
+
+
+
+
+.about-section {
+    background-image: url('image/aboutusbg.jpg'); /* replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 40px 0;
+    text-decoration: white;
+    color: #ccc;
+}
+
+.team-section {
+    background-color: #f5f5dc;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-member {
+    width: 150px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.philosophy-section {
+    background-color: white;
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.philosophy-intro {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.philosophy-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.philosophy-content img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.philosophy-content p {
+    max-width: 500px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
